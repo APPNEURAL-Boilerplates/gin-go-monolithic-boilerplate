@@ -6,8 +6,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/gin-monolithic-boilerplate/internal/common/apperror"
-	"github.com/example/gin-monolithic-boilerplate/internal/common/response"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/apperror"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/response"
 )
 
 func Recovery(logger *slog.Logger) gin.HandlerFunc {

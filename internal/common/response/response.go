@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/gin-monolithic-boilerplate/internal/common/apperror"
-	"github.com/example/gin-monolithic-boilerplate/internal/common/requestid"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/apperror"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/requestid"
 )
 
 type Envelope struct {

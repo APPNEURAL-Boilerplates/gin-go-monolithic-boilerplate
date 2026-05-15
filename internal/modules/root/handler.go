@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/gin-monolithic-boilerplate/internal/common/response"
-	"github.com/example/gin-monolithic-boilerplate/internal/config"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/response"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/config"
 )
 
 type metadata struct {

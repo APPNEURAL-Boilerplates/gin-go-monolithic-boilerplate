@@ -1,4 +1,4 @@
-APP_NAME := gin-monolithic-boilerplate
+APP_NAME := gin-go-monolithic-boilerplate
 
 .PHONY: dev test test-cover build run tidy fmt vet check docker-up docker-down
 

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/example/gin-monolithic-boilerplate/internal/common/apperror"
-	"github.com/example/gin-monolithic-boilerplate/internal/common/id"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/apperror"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/id"
 )
 
 type Service struct {

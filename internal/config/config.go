@@ -21,7 +21,7 @@ type Config struct {
 
 func Default() Config {
 	return Config{
-		AppName:         "gin-monolithic-boilerplate",
+		AppName:         "gin-go-monolithic-boilerplate",
 		AppEnv:          "local",
 		Port:            "8080",
 		GinMode:         "debug",

@@ -1,4 +1,4 @@
-module github.com/example/gin-monolithic-boilerplate
+module github.com/example/gin-go-monolithic-boilerplate
 
 go 1.25.0
 

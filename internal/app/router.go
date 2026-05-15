@@ -6,13 +6,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/example/gin-monolithic-boilerplate/internal/common/apperror"
-	"github.com/example/gin-monolithic-boilerplate/internal/common/response"
-	"github.com/example/gin-monolithic-boilerplate/internal/config"
-	"github.com/example/gin-monolithic-boilerplate/internal/http/middleware"
-	"github.com/example/gin-monolithic-boilerplate/internal/modules/health"
-	"github.com/example/gin-monolithic-boilerplate/internal/modules/root"
-	"github.com/example/gin-monolithic-boilerplate/internal/modules/users"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/apperror"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/common/response"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/config"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/http/middleware"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/modules/health"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/modules/root"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/modules/users"
 )
 
 func NewRouter(cfg config.Config, logger *slog.Logger) *gin.Engine {

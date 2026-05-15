@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/example/gin-monolithic-boilerplate/internal/app"
-	"github.com/example/gin-monolithic-boilerplate/internal/config"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/app"
+	"github.com/example/gin-go-monolithic-boilerplate/internal/config"
 )
 
 func main() {
